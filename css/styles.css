@@ -1,0 +1,265 @@
+:root {
+  --accent-color: #2e2f42;
+  --paragraph-color: #434455;
+  --background-color: #2e2f42;
+  --logo-color: #4d5ae5;
+  --btn-accent-color: #404bbf;
+}
+
+body {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/* HEADER */
+
+.header-logo {
+  color: var(--logo-color);
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-logo-accent {
+  color: var(--logo-color);
+}
+
+.header-logo-color {
+  color: var(--accent-color);
+}
+
+.header-menu-link {
+  color: var(--accent-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--btn-accent-color);
+}
+
+.header-adress {
+  font-style: normal;
+}
+.header-adress-list {
+}
+.header-adress-item {
+}
+.header-adress-link {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-adress-link:hover,
+.header-adress-link:focus {
+  color: var(--btn-accent-color);
+}
+
+/* HERO */
+
+.hero {
+  background-color: var(--background-color);
+}
+
+.hero-title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 500;
+  background: #4d5ae5;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--btn-accent-color);
+}
+
+/* ADVANTAGES */
+
+.advantages {
+}
+.advantages-list {
+}
+.advantages-item {
+}
+.advantages-subtitle {
+  color: var(--accent-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.advantages-item-text {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* WORK */
+
+.work {
+}
+
+.work-title {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.work-list {
+}
+.list {
+}
+.work-item {
+}
+.work-img {
+}
+
+/* TEAM */
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-list {
+}
+.list {
+}
+.team-item {
+  background-color: #ffffff;
+}
+
+.team-subtitle {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-item-text {
+  color: var(--paragraph-color);
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--background-color);
+}
+
+.footer-logo {
+  color: #4d5ae5;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-logo-accent {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/*-- PORTFOLIO --*/
+
+/* PROJECT */
+
+.projekt {
+  background-color: #f4f4fd;
+}
+
+.project-btn {
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.project-btn:hover,
+.project-btn:focus {
+  color: #ffffff;
+  background-color: var(--btn-accent-color);
+}
+
+.second-list-item {
+  background-color: #ffffff;
+}
+
+.projekt-subtitle {
+  color: var(--background-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.projekt-link-text {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}

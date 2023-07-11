@@ -71,6 +71,7 @@ body {
 }
 
 .header-logo {
+  margin-right: 76px;
   color: var(--logo-color);
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -103,11 +104,7 @@ body {
 
 .header-menu {
   display: flex;
-  padding: 24px 0 24px;
   gap: 40px;
-}
-
-.header-menu-link {
 }
 
 .header-adress {

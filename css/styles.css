@@ -97,6 +97,7 @@ body {
 }
 
 .header-navigation {
+  padding: 24px 0 24px;
   display: flex;
   align-items: center;
   flex-grow: 1;
@@ -120,7 +121,6 @@ body {
 }
 
 .header-menu-item {
-  padding: 24px 0 24px;
 }
 
 .header-menu-link {

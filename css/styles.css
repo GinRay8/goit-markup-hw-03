@@ -104,7 +104,6 @@ body {
 }
 
 .header-menu {
-  padding: 24px 0 24px;
   display: flex;
   gap: 40px;
 }
@@ -118,6 +117,10 @@ body {
   display: flex;
   gap: 40px;
   margin-right: auto;
+}
+
+.header-menu-item {
+  padding: 24px 0 24px;
 }
 
 .header-menu-link {

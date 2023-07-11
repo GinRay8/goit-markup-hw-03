@@ -72,6 +72,7 @@ body {
 }
 
 .header-logo {
+  padding: 24px 0 24px;
   margin-right: 76px;
   color: var(--logo-color);
   font-size: 18px;
@@ -97,7 +98,6 @@ body {
 }
 
 .header-navigation {
-  padding: 24px 0 24px;
   display: flex;
   align-items: center;
   flex-grow: 1;

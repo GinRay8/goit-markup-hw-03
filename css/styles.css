@@ -386,7 +386,7 @@ body {
 
 .project-btn:hover,
 .project-btn:focus {
-  border: 1px solid;
+  border: 1px solid transparent;
   color: #ffffff;
   background-color: var(--btn-accent-color);
 }

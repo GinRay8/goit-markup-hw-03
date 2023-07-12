@@ -47,12 +47,13 @@ body {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .link {
@@ -287,13 +288,17 @@ body {
 }
 
 .team-item {
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-subtitle {
+.team-subtitle-text {
   padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.team-subtitle {
   margin-bottom: 8px;
   color: var(--accent-color);
   text-align: center;
@@ -304,7 +309,6 @@ body {
 }
 
 .team-item-text {
-  margin-bottom: 32px;
   color: var(--paragraph-color);
   text-align: center;
   font-size: 16px;
@@ -337,7 +341,6 @@ body {
 }
 
 .footer-text {
-  margin-top: 17.5px;
   max-width: 264px;
   color: #f4f4fd;
   font-size: 16px;

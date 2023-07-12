@@ -293,6 +293,8 @@ body {
 }
 
 .team-subtitle-text {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-subtitle {
@@ -393,11 +395,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  column-gap: 24px;
-  row-gap: 48px;
 }
 
 .second-list-item {
+  column-gap: 24px;
+  row-gap: 48px;
   width: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
   background-color: #ffffff;
